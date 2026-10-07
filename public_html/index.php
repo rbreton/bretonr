@@ -19,7 +19,7 @@
 	</head>
 	<body>
 		<?php include ("{$root}inc/tpl/header.tpl.php"); ?>
-		<a class="easterEgg" href="#"></a>
+		<input id="easterEgg" type="checkbox" name="easterEgg" />
 		<div class="openCode">
 			<ol>
 				<li>&lt;!doctype html&gt;</li>

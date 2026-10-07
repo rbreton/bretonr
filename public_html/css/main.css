@@ -345,15 +345,17 @@ sup {
  * @autor : Remi Breton;
  * @content : les css pour ouvrir le site et voir le code html;
 **/
-.easterEgg{
+#easterEgg{
 	text-decoration: none;
+	appearance: none;
 	height: 30px;
 	display: block;
-	width: 100%;
+	width: 95%;
 	position: absolute;
 	top: 68px;
+	cursor: pointer;
 }
-.easterEgg:active ~.openCode{
+#easterEgg:checked ~.openCode{
 	max-height: 305px;
   transition: max-height 0.50s ease-in-out;
 }
